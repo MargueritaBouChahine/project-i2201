@@ -1,0 +1,54 @@
+body {
+    font-family: Ubuntu;
+}
+.topnav {
+    overflow:hidden;
+    padding: 10px;
+    text-align: center;
+    
+}
+.topnav a {
+    text-decoration: none;
+    color:#b62f2f;
+    padding: 14px 16px;
+    float: center;
+    text-align: center;
+    font-size: 25px;
+    margin:auto;
+}
+.topnav a:hover{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.icon {
+    text-align: left;
+    position: absolute;
+    font-size: 25px;
+    float: left;
+    color: #b62f2f;
+    margin: auto;
+    padding: 10px;
+}
+.mb {
+    height: 500px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    padding: 0px;
+}
+.parag {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: hsl(0, 0%, 30%);
+}
+.question {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+}
+.main {
+    padding: 5px;
+    display: block;
+}
