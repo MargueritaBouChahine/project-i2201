@@ -161,9 +161,16 @@ nav{
     font-size: 20px;
 }
 .information1 {
-    background: linear-gradient(to bottom, #F90493, #FF8BCF );
-    color: white;
+    background: white;
+    color: #F90493;
     text-align: center;
+    margin: auto;
+    width: 90%;
+    align-content: center;
+}
+.information1 p {
+    font-size: 20px;
+    margin: 22px;
 }
 .VehicleTypes h1 {
     text-align: center;    
