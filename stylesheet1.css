@@ -172,6 +172,20 @@ nav{
     font-size: 20px;
     margin: 22px;
 }
+.information1 .paraA {
+    opacity: 60%;
+    color: black;
+}
+.information1 h3 {
+    margin: 10px;
+    color: #FF8BCF;
+}
+.information1 h1 {
+    color: #FF8BCF;
+}
+.information1 .titreA {
+    color: #F90493;
+}
 .VehicleTypes h1 {
     text-align: center;    
 }
