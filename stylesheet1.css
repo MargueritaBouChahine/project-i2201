@@ -231,4 +231,17 @@ nav{
 }.column {
     display: flex;
 }
-
+.rentButton {
+    z-index: 1;
+    font-size: 20px;
+    width: 110px;
+    height: 50px;
+    position: absolute;
+    align-self: center;
+    right: 400px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}.rentButton:hover{
+    background-color: #FF8BCF
+}
