@@ -245,3 +245,28 @@ nav{
 }.rentButton:hover{
     background-color: #FF8BCF
 }
+.demand {
+    color: #F90493;
+    text-align: center;
+    position: relative;
+}
+.form {
+    text-align: center;
+    font-size: 30px;
+}.form input {
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}.form select {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.form label {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
