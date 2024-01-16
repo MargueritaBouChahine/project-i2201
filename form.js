@@ -4,14 +4,12 @@ window.onload = () => {
     setTimeout(() => {
         transition_el.classList.remove('is-active');
     }, 300);
-}
-
-function fillTheForm() {
-    window.location.href="form.html";
-    document.getElementById('carchoice').value = "Toyota Rav-4";
-    /*
-    var pickedCar = document.getElementsByClassName("car1").value;
-    if (pickedCar === "ToyotaRAV-4"){
-        document.getElementById('carchoice').value = "Toyota Rav-4";
-    } */
+    
+    input = document.getElementById("carChoice");
+    let params = new URLSearchParams(window.location.search);
+    console.log(params);
+    if (params.has("carName")) {
+        input.value = decodeURIComponent(params.get("carName"));
+        console.log(input.value);
+    }
 }
