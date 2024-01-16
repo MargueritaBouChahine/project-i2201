@@ -239,6 +239,7 @@ nav{
     position: absolute;
     align-self: center;
     right: 400px;
+    top: 100px;
     background-color: transparent;
     border: 2px solid white;
     color: white;
